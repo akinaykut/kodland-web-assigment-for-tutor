@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navigation {
+  height: 10%;
+  padding: 2% 0;
+}
+.navigation .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+}
+.navbar__items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 25%;
+  list-style: none;
+}
+
+.navbar__items li {
+  font-size: 1rem;
+}
+
+.navbar__items li:hover {
+  color: white;
+}
+
+header {
+  background-color: #ffbf69;
+}
+
+.header__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__content--left-side {
+  width: 30%;
+}
+
+.header__content--left-side h1 {
+  font-size: 5rem;
+  color: white;
+  font-weight: bold;
+}
+
+.header__content--left-side p {
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.header__content--left-side button {
+  background-color: rgb(127, 227, 255);
+  width: 150px;
+}
+
+.header__content--left-side button:hover {
+  color: white;
+  background-color: #25d0d3;
+}
+.header__content--right-side {
+  width: 70%;
+}
+
+.header__content--right-side img {
+  width: 100%;
+}
+
+.first__section {
+  text-align: center;
+  padding: 5% 0;
+}
+
+.first__section .container {
+  width: 70%;
+}
+.first__section h3 {
+  font-weight: bold;
+}
+
+.second__section {
+  padding: 5% 0;
+  background-color: rgb(36, 214, 242);
+}
+.second__section--items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.second__section--item {
+  text-align: center;
+}
+
+.second__section--item img {
+  width: 200px;
+}
+
+.second__section--item p {
+  padding: 20px 0;
+
+  font-size: 1.5rem;
+}
+
+.second__section h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3% 0;
+  font-weight: bold;
+}
+
+.third-section {
+  background-image: url(./images/bg-grid.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 5% 0;
+}
+
+.third-section .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.third-section__content {
+  width: 50%;
+}
+.third-section__content h3 {
+  font-weight: bold;
+}
+.third-section__image {
+  text-align: center;
+  width: 50%;
+}
+
+.third-section__image img {
+  width: 400px;
+}
